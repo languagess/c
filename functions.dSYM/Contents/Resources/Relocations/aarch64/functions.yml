@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rucp/Documents/GitHub/languages/c/functions'
+relocations:
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _init_function, symObjAddr: 0x0, symBinAddr: 0x100003958, symSize: 0x1C }
+  - { offsetInCU: 0x62, offset: 0x62, size: 0x8, addend: 0x0, symName: _destructor_function, symObjAddr: 0x1C, symBinAddr: 0x100003974, symSize: 0x1C }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _original_function, symObjAddr: 0x38, symBinAddr: 0x100003990, symSize: 0x1C }
+  - { offsetInCU: 0x8C, offset: 0x8C, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x54, symBinAddr: 0x1000039AC, symSize: 0x20 }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: _printMessage, symObjAddr: 0x74, symBinAddr: 0x1000039CC, symSize: 0x34 }
+  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _increment, symObjAddr: 0xA8, symBinAddr: 0x100003A00, symSize: 0x20 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _printNumbers, symObjAddr: 0xC8, symBinAddr: 0x100003A20, symSize: 0x94 }
+  - { offsetInCU: 0x175, offset: 0x175, size: 0x8, addend: 0x0, symName: _functionPointerExample, symObjAddr: 0x15C, symBinAddr: 0x100003AB4, symSize: 0x54 }
+  - { offsetInCU: 0x1A7, offset: 0x1A7, size: 0x8, addend: 0x0, symName: _callbackFunction, symObjAddr: 0x1B0, symBinAddr: 0x100003B08, symSize: 0x38 }
+  - { offsetInCU: 0x1CB, offset: 0x1CB, size: 0x8, addend: 0x0, symName: _processCallback, symObjAddr: 0x1E8, symBinAddr: 0x100003B40, symSize: 0x58 }
+  - { offsetInCU: 0x20B, offset: 0x20B, size: 0x8, addend: 0x0, symName: _createArray, symObjAddr: 0x240, symBinAddr: 0x100003B98, symSize: 0x28 }
+  - { offsetInCU: 0x233, offset: 0x233, size: 0x8, addend: 0x0, symName: _dynamicFunctionDispatchingExample, symObjAddr: 0x268, symBinAddr: 0x100003BC0, symSize: 0x80 }
+  - { offsetInCU: 0x262, offset: 0x262, size: 0x8, addend: 0x0, symName: _structureFunctionPointerExample, symObjAddr: 0x2E8, symBinAddr: 0x100003C40, symSize: 0x4C }
+  - { offsetInCU: 0x286, offset: 0x286, size: 0x8, addend: 0x0, symName: _recursionExample, symObjAddr: 0x334, symBinAddr: 0x100003C8C, symSize: 0x5C }
+  - { offsetInCU: 0x2AA, offset: 0x2AA, size: 0x8, addend: 0x0, symName: _cleanup_function, symObjAddr: 0x390, symBinAddr: 0x100003CE8, symSize: 0x1C }
+  - { offsetInCU: 0x2BF, offset: 0x2BF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3AC, symBinAddr: 0x100003D04, symSize: 0x10C }
+...
